@@ -12,6 +12,7 @@ public class Tutorial {
 
   @Column(name = "title")
   private String title;
+  System.out.println("Hello world");
 
   @Column(name = "description")
   private String description;
