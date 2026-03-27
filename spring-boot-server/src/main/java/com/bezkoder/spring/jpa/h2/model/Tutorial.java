@@ -19,6 +19,8 @@ public class Tutorial {
   @Column(name = "published")
   private boolean published;
 
+  private String email;
+
   public Tutorial() {
 
   }
